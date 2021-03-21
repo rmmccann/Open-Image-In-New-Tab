@@ -1,0 +1,26 @@
+{
+	"manifest_version": 2,
+	"name": "Open Image In New Tab",
+	"description": "Adds a context menu item to open images in a new tab",
+	"version": "1.0.0",
+	"author": "rmmccann",
+	"applications": {
+		"gecko": {
+			"id": "open-image-in-new-tab@rmmccann.github.io",
+			"strict_min_version": "78.0"
+		}
+	},
+	"background": {
+		"scripts": [
+			"background.js",
+			"node_modules/postal-mime/dist/postal-mime.js"
+		]
+	},
+	"permissions": [
+		"menus",
+		"messagesRead"
+	],
+	"icons": {
+		"64": "icon.svg"
+	}
+}
