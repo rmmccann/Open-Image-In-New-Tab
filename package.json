@@ -1,0 +1,5 @@
+{
+	"dependencies": {
+		"postal-mime": "^1.0.16"
+	}
+}
